@@ -110,12 +110,13 @@ a:focus{
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
-	font-size:0px;
+	font-size:30px;
 }
 .section-description{
 	font-weight:300;
 	text-align:center;
 	line-height:30px;
+	font-size: 15px;
 }
 .form-control{
 	padding: 6px 30px;
@@ -246,8 +247,8 @@ a:focus{
 	width:80px;
 	height:80px;
 	position:absolute;
-	top:-10px;
-	left:-10px;
+	top:7px;
+	left:7px;
 
 	-webkit-transform:rotate(-45deg);
 	   -moz-transform:rotate(-45deg);
@@ -258,43 +259,40 @@ a:focus{
 .social-btn-box,
 .social-btn-box a{
 	
-	-webkit-transition:all .25s;
-	   -moz-transition:all .25s;
-	    -ms-transition:all .25s;
-	     -o-transition:all .25s;
-	        transition:all .25s;
+	-webkit-transition:all .4s;
+	   -moz-transition:all .4s;
+	    -ms-transition:all .4s;
+	     -o-transition:all .4s;
+	        transition:all .4s;
 }
 .social-btn-box:hover{
 	border-color:transparent;
 }
-.social-btn-box .facebook-btn:hover{
-	background:#3B5998;
-	color: #fff;
+.facebook-box:hover {
+	border-color:transparent;
+	background-color: #5DADE2;
 }
-.social-btn-box .twitter-btn:hover{
-	background:#55ACEE;
-	color: #fff;
+
+.twitter-box:hover {
+	border-color:transparent;
+	background-color:#AED6F1;
 }
-.social-btn-box .linkedin-btn:hover{
-	background:#0077b5;
-	color: #fff;
+
+.linkedin-box:hover {
+	border-color:transparent;
+	background-color:#F7DC6F;
 }
-.social-btn-box .google-plus-btn:hover{
-	background:#db514f;
-	color: #fff;
+
+.instagram-box:hover{
+	border-color:transparent;
+	background-color:#EC7063;
 }
-.social-btn-box .youtube-btn:hover{
-	background:#cc181e;
-	color: #fff;
+
+.wordpress-box:hover{
+	border-color:transparent;
+	background-color:#AF7AC5;
 }
-.social-btn-box .github-btn:hover{
-	background:#2b2e30;
-	color: #fff;
-}
-.social-btn-box .a:hover{
-	background:#3498db;
-	color: #fff;
-}
+
 /* 2.2 - Social Button
 ------------------------------------------ */
 
@@ -568,7 +566,7 @@ a:focus{
 
 
 
-/* 5 - About Us Section
+/* 5 - About Me Section
 ---------------------------------------------------------------------- */
 .team-container .col-sm-4{
 	padding:60px 15px 0 15px;
@@ -596,8 +594,8 @@ a:focus{
 	padding-top:20px;
 }
 .team-container .member-name {
-	font-size: 1.5em;
-	font-weight: 700;
+	font-size: 1.3em;
+	font-weight: 560;
 	margin: 0;
 	padding: 26px 10px 5px 10px;
 }
@@ -1180,4 +1178,6 @@ background: #00aaff;
 
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
-
+. twitter-btn{
+	padding-top: 200px;
+}
